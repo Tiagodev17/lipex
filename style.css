@@ -40,6 +40,6 @@ header{
 .list, a:hover{
     font-size: 2.5rem;
     padding: 0 25px;
-    
-
+    transition: 350ms all;
+    color: #A6A6A6;
 }

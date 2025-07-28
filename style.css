@@ -24,45 +24,52 @@ header{
 }
 .h1_Text{
     color: white;
-    font-size: 2.5rem;
-    font-style: italic;
+    font-size: 1.8rem;
     font-weight: 500;
-    padding-left: 5rem;
 }
-
 .navbar{
     display: flex;
-    justify-content:space-between;
-    align-items: end;
-    flex-direction: row;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding-right: 5rem;
+    height: 100%;
+    
+}
+.contentNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
 }
 .list, a{
     text-decoration: none;
     display: inline-flex;
     color: white;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.5rem;
+    gap: 1rem;
+
+    
 }
 .list, a:hover{
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0 25px;
     transition: 350ms all;
     color: #A6A6A6;
 }
 main{
     background-color: #A6A6A6;
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
 }
 .container{
-    height: 80%;
+    height: 70%;
     background-color: white;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .conteudos{
     width: 80%;
@@ -84,5 +91,27 @@ main{
     font-size: 5rem;
     font-weight: 600;
     font-style: italic;
-    text-shadow: ;
+   
 }
+.container2{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.img{
+   width: 500px;
+   height: 500px;
+   border-radius: 50%;
+   background-image: url(img/Antonio.png.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: 1px solid #A6A6A6;
+}
+
+

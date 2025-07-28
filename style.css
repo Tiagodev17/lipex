@@ -47,14 +47,21 @@ header{
     color: white;
     font-size: 1.5rem;
     gap: 1rem;
-
+    position: relative;
+}
+nav .contentNav .list  a:hover::before{
+    content: "";
+    
     
 }
-.list, a:hover{
-    font-size: 2rem;
-    padding: 0 25px;
-    transition: 350ms all;
-    color: #A6A6A6;
+nav .contentNav .list  a:hover,::after{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid red;
+    padding: 0;
+
+    
+    
 }
 main{
     background-color: #A6A6A6;

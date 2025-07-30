@@ -1,0 +1,14 @@
+@media (max-width:870px) {
+    .list a{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .h1_Text{
+        font-size: 1rem;
+    }
+
+    .h1_Name{
+        font-size: 30px;
+    }
+}
+

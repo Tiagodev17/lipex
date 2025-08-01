@@ -9,7 +9,7 @@
 
 body{
     font-family: "Montserrat", sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--color2);
     
 }
@@ -60,14 +60,13 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
     
 }
 .heroh1{
     font-size: 5rem;
     max-width: 90%;
     color: var(--color1);
-    
-    
 }
 h2{
     font-size: 4.5rem;
@@ -81,6 +80,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .links{
@@ -91,9 +91,11 @@ h2{
     
     
 }
-img{
+.imagem{
     width:100%;
     border-radius: 50%;
+    border: 2px solid var(--color1);
+    
 }
 
 .icons{
@@ -104,9 +106,7 @@ a{
     text-decoration: none;
      
 }
-.ball{
-   
-}
+
 
 
 

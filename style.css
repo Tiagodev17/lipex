@@ -22,7 +22,7 @@ body{
 
 }
 header{
-    width: 100%;
+    max-width: 100%;
     padding: 20px 8%;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ a:hover{
     color: rgba(0, 0, 0, 0.541);
 }
 main{
-    height: 90vh;
+    height: 100vh;
     padding: 30px 8%;
     display: flex;
     background-color: var(--color2);  
@@ -66,11 +66,13 @@ main{
     font-size: 5rem;
     max-width: 90%;
     color: var(--color1);
+    display: flex;
 }
 h2{
     font-size: 4.5rem;
     color: var(--color1);
     max-width: 90%;
+    display: flex;
 }
 .img{
     height: 80%;
@@ -91,8 +93,6 @@ h2{
     width:100%;
     border-radius: 50%;
     border: 2px solid var(--color1);
-    
-    
 }
 .icons{
     width: 50px;

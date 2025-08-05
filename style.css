@@ -125,7 +125,7 @@ h3{
     width: 100%;
 }
 #exp{
-    height: 100vh;
+    height: 95vh;
 }
 #txt_exp{
     color: var(--color1);
@@ -135,7 +135,8 @@ h3{
     width: 100%;
 }
 .img_prob2{
-    width: 350px;
+    width: 400px;
+    height: 550px;
 }
 .container_exp{
     height: 100%;
@@ -155,6 +156,16 @@ h3{
     gap: 1rem;
     padding: 0 2%;
     
+}
+.content_exp_reverse{
+     width: 100%;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2%;
+    flex-direction: row-reverse;
 }
 
 .content_text{

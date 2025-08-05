@@ -68,12 +68,7 @@ main{
     color: var(--color1);
     display: flex;
 }
-h2{
-    font-size: 4.5rem;
-    color: var(--color1);
-    max-width: 90%;
-    display: flex;
-}
+
 .img{
     height: 80%;
     width: 40%;
@@ -86,8 +81,7 @@ h2{
 .links{
     width: 28%;
     display: flex;
-    gap: 1rem;
-    
+    gap: 2rem;
 }
 .imagem{
     width:100%;

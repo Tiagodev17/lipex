@@ -15,9 +15,33 @@
     width: 40%;
  
 }
+    .txt_about{
+    font-size: 2.5rem;
+    color: var(--color1);
+    font-weight: 600;
+
 }
+}
+@media screen and (max-width:1980px){ 
+      .bg_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--color3);
+    border-radius: 2%;
+    padding: 2rem;
+    width: 40%;
+ 
+}
+    .txt_about{
+    font-size: 2rem;
+    color: var(--color1);
+    font-weight: 600;
 
-
+}
+}
 
 
 @media screen and (max-width:1480px){ 
@@ -25,8 +49,21 @@
        font-size: 4.5rem;
     }
 }
+@media screen and (max-width:1280px){ 
+       .bg_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--color3);
+    border-radius: 2%;
+    padding: 2rem;
+    width: 60%;
+ 
+}
 
-
+}
 
 
 @media screen and (max-width:1162px){

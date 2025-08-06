@@ -34,17 +34,15 @@
        flex-direction: row;
        justify-content: center;
        align-items: center;  
-       outline: 1px solid black;  
+  
 }
 .heroh1{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 60%;
-    width: 100%;
+    width: 60%;
     color: var(--color1);
-    outline: 1px solid black;
-    
+
 }
 
 .img{
@@ -69,8 +67,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    outline: 1px solid black;
-    
+    max-width: 10%;
+    gap: 1rem;    
 }
     .container_exp{
         display: none;
@@ -104,10 +102,85 @@
     font-weight: 600;
 }
     #exp{
-        display: none;
+    height: 95vh;
+}
+#txt_exp{
+    color: var(--color1);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.img_prob2{
+    width: 350px;
+    height: 500px;
+}
+.container_exp{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content_exp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0 5%;
+    
+    
+}
+.content_exp_reverse{
+     width: 100%;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 5%;
+    flex-direction: row-reverse;
+    
+}
+
+.content_text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+   
+}
+h4{
+        font-size: 1rem;
+        max-width: 77%;
     }
+.txt_exp{
+    width: 80%;
+    font-size: 2rem;
+    color: var(--color1);
+}
     
     
+}
+@media screen and (max-width:753px){
+    .heroh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    color: var(--color1);
+    
+
+}
+
+
+
 }
 @media screen and (max-width:1347px){
     .heroh1{

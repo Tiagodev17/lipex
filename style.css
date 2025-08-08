@@ -86,7 +86,7 @@ main{
     border: 2px solid var(--color1);
 }
 .icons{
-    width: 50px;
+    width: 60px;
 }
 
 a{
@@ -134,7 +134,7 @@ h3{
     width: 100%;
 }
 #exp{
-    height: 95vh;
+    height: 40vh;
 }
 #txt_exp{
     color: var(--color1);

@@ -60,6 +60,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     
 }
 .heroh1{
@@ -196,6 +197,16 @@ h4{
     width: 80%;
     font-size: 2rem;
     color: var(--color1);
+}
+footer a{
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+footer {
+    color: black;
+    text-align: center;
+    width: 100%;
 }
 
 

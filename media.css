@@ -261,7 +261,7 @@
     font-weight: 600;
 }
     .txt_about{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--color1);
     font-weight: 600;
 
@@ -346,7 +346,7 @@
         width: 35px;
      }
         .txt_about{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--color1);
     font-weight: 600;
 
@@ -374,7 +374,10 @@
 }
 
     }
-            @media screen and (max-width:500px) {
-
+@media screen and (max-width:444px) {
+    .heroh1{
+    font-size: 1.7rem;
+    width: 65%;
+    }
 
             }

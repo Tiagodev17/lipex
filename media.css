@@ -159,7 +159,7 @@
     border: 2px solid var(--color1);
 }
       .txt_about{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--color1);
     font-weight: 600;
 
@@ -273,6 +273,7 @@
     border-radius: 50%;
     border: 2px solid var(--color1);
 }
+    
     .icons{
     width: 45px;
 }
@@ -282,7 +283,30 @@
     }
 
     }
-        @media screen and (max-width:611px) {
+    @media screen and (max-width:712px) {
+    .txt_exp{
+    width: 80%;
+    font-size: 0.7rem;
+    color: var(--color1);
+    font-weight: 600;
+}
+    h4{
+        font-size: 1rem;
+    }
+      .img_prob2{
+    width: 130px;
+    height: 250px;
+}
+       #txt_exp{
+    color: var(--color1);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+}
+      @media screen and (max-width:611px) {
     .heroh1{
        font-size: 2.3rem;
        width: 55%;
@@ -297,8 +321,20 @@
     border-radius: 50%;
     border: 2px solid var(--color1);
 }
+       header{
+    max-width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    border-bottom: 1px solid #00000011; 
+}
 
 }
+
+        
         @media screen and (max-width:512px) {
         .heroh1{
        font-size: 2rem;
@@ -315,6 +351,7 @@
     font-weight: 600;
 
 }
+ 
     .img_prob2{
     width: 110px;
     height: 200px;
@@ -336,42 +373,8 @@
     width: 100%;
 }
 
-        }
-        @media screen and (max-width:512px) {
-        .heroh1{
-       font-size: 2rem;
-       width: 55%;
-       height: 0;
-       background-color: red;
-    } 
-        .icons{
-        width: 35px;
-     }
-        .txt_about{
-    font-size: 1rem;
-    color: var(--color1);
-    font-weight: 600;
-
-}
-    .img_prob2{
-    width: 110px;
-    height: 200px;
-}
-    .txt_exp{
-    width: 80%;
-    font-size: 0.6rem;
-    color: var(--color1);
-    font-weight: 600;
-}
-    h4{
-        font-size: 1rem;
     }
-    #txt_exp{
-    color: var(--color1);
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+            @media screen and (max-width:500px) {
 
-        }
+
+            }

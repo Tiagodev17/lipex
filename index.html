@@ -10,8 +10,11 @@
     <meta name="robots" content="index, follow">
     <title>Portfólio Antonio Felipe</title>
     <link rel="shortcut icon" href="img/favcon.ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sobre.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -29,48 +32,32 @@
       <h1>Portfolio</h1>
       <nav class="navBar">
         <ul>
-          <ol>
-            <a href="#">Inicio</a>
-          </ol>
-          <ol>
+          <li>
+            <a href="#">Início</a>
+          </li>
+          <li>
             <a href="#sobre">Sobre</a>
-          </ol>
-          <ol>
+          </li>
+          <li>
             <a href="#exp">Experiencias</a>
-          </ol>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
       <div class="container">
-        <h1 class="heroh1">Antonio Felipe VideoMaker & Editor</h1>
-        
+        <div class="contentTxt">
+          <h1 class="h1">Antonio Felipe VideoMaker & Editor</h1>
         <div class="links">
-          <a
-            class="ball"
-            target="_blank"
-            href="https://www.linkedin.com/in/antofelipe"
-          >
-            <img class="icons" src="svg/linkedin.png" alt="linkedin" />
-          </a>
-
-          <a
-            class="ball"
-            target="_blank"
-            href="https://www.instagram.com/antolipee"
-          >
-            <img class="icons" src="svg/instagram.png" alt="instagram"/>
-          </a>
-
-          <a class="ball" target="_blank" href="https://wa.me/5521981593608">
-            <img class="icons" src="svg/whatsapp.png" alt="whatsapp"/>
-          </a>
+          <a href="https://www.linkedin.com/in/antofelipe"><img src="svg/linkedin.png" alt="linkedin"></a>
+          <a href="#"><img src="svg/instagram.png" alt="instagram"></a>
+          <a href="#"><img src="svg/whatsapp.png" alt="whatsapp"></a>
+          <input class="cv" type="button" id="cv" value="Baixar Currículo" onclick="clicar()">
         </div>
+          </div>
+        <img class="img" src="img/profilepic.png.jpg" alt="Antonio_Felipe">
       </div>
-      <div class="img">
-          <img class="imagem" src="img/profilepic.png.jpg" alt="image"/>
-        </div>
     </main>
 
     <section id="sobre">
@@ -150,6 +137,7 @@ atração de novos clientes ao restaurante.</p>
       <p>Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/tiago-sampaio-0b9a89366">Tiago Sampaio</a></p>
     </footer>
 
+    <script src="index.js"></script>
 
 
   </body>

@@ -1,0 +1,38 @@
+
+#sobre{
+
+
+}
+h3{
+    font-size: 2rem;
+    color: var(--color1);
+}
+
+.content_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    margin: 0 auto;
+}
+.bg_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--color3);
+    border-radius: 2%;
+    padding: 2rem;
+    width: 50%;
+ 
+}
+.txt_about{
+    font-size: 1.5rem;
+    color: var(--color1);
+    font-weight: 600;
+
+}

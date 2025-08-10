@@ -1,0 +1,34 @@
+:root{
+    --color1:#424242;
+    --color2:#EEEEEE;
+    --color3:#dcdcdc;
+    --color4:#ececec;
+}
+#about{
+    height: 30vh;
+    background-color: #424242;
+}
+.containerAbout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerAbout   .links{
+    display: flex;
+    justify-content: center;
+}
+.h5,.h6{
+    font-size: 2rem;
+    color: var(--color3);
+}
+.Tiago{
+    text-align: center;
+    background-color: var(--color1);
+
+}
+.linkTiago{
+    color: var(--color3);
+}

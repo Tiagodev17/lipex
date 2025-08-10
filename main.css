@@ -2,6 +2,7 @@
     --color1:#424242;
     --color2:#EEEEEE;
     --color3:#dcdcdc;
+    --color4:#ececec;
 }
 main{
     height: 100vh;
@@ -9,6 +10,7 @@ main{
     padding: 80px 0;
     display: flex;
     background-color: var(--color2); 
+    background-color: #ececec;
 
 }
 .container{

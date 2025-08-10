@@ -48,6 +48,6 @@ ul li,a{
     list-style: none;  
 }
 
-a:hover{
+.icons:hover{
     color: rgba(0, 0, 0, 0.541);
 }

@@ -55,6 +55,13 @@ main{
     color: var(--color1);
     line-height: 25px;
 }
+.containerExp{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
 
 }
@@ -132,4 +139,9 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+
+
 }
+
+

@@ -18,19 +18,29 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
-    
+   
 }
 .contentTxt{
     max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    
 }
 .h1{
     font-size: 5rem;
     max-width:90%;
     color: var(--color1);
+    
+}
+.h2{
+    font-size: 3rem;
+    max-width: 90%;
+    color: var(--color1);
+    font-style: italic;
 }
 
 .img{
+    
     width: 35%;
     border-radius: 50%;
     border: solid 2px rgba(0, 0, 0, 0.466);
@@ -40,6 +50,7 @@ main{
     width: 100%;
     display: flex;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
 .icons{
@@ -51,7 +62,7 @@ a{
      
 }
 .cv{
-    width: 30%;
+    width: 35%;
     border: none;
     background-color:var(--color1);
     color: var(--color3);
@@ -59,8 +70,22 @@ a{
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cv:hover{
     background-color: var(--color3);
     color: var(--color1);
+}
+.sobre{
+    font-size: 1.1rem;
+    width: 65%;
+    margin-top: 1rem;
+    font-weight: 600;
+    background-color: var(--color3);
+    padding: 1rem;
+    border-radius: 3%;
+    color: var(--color1);
+    line-height: 25px;
 }

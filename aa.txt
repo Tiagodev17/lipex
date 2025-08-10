@@ -1,0 +1,6 @@
+<div class="links">
+          <a href="https://www.linkedin.com/in/antofelipe"><img src="svg/linkedin.png" alt="linkedin"></a>
+          <a href="#"><img src="svg/instagram.png" alt="instagram"></a>
+          <a href="#"><img src="svg/whatsapp.png" alt="whatsapp"></a>
+          <a href="img/CURRICULO 2025 - ANTONIO.pdf" download="" class="cv">Baixar Currículo</a>
+        </div>

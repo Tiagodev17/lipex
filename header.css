@@ -49,9 +49,3 @@ ul li,a{
 a ,.icons:hover{
     color: rgba(0, 0, 0, 0.705);
 }
-#mode{
-    width: 50px;
-    border: none;
-    background-color: black;
-    border-radius: 10%;
-}

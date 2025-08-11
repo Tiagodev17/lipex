@@ -28,6 +28,7 @@ main{
     font-size: 5rem;
     max-width:90%;
     color: var(--color1);
+    transition: 850ms ;
     
 }
 .h2{
@@ -35,20 +36,24 @@ main{
     max-width: 90%;
     color: var(--color1);
     font-style: italic;
+    transition: 950ms ;
 }
 .img{   
     width: 35%;
     border-radius: 50%;
     border: solid 2px rgba(0, 0, 0, 0.466);
+
 }
 .links{
     width: 100%;
     display: flex;
     gap: 2rem;
     margin-top: 1rem;
+    
 }
 .icons{
     width: 60px;
+    
 }
 a{
     text-decoration: none;
@@ -64,7 +69,7 @@ a{
     font-weight: 500;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 .cv:hover{
     background-color: var(--color3);
@@ -80,4 +85,5 @@ a{
     border-radius: 3%;
     color: var(--color1);
     line-height: 25px;
+    transition: 850ms ;
 }

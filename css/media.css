@@ -1025,9 +1025,17 @@ h5,h6{
     height:250vh;
     background-color:#ececec; 
 }
+@media screen and (max-height: 670px) {
+    main{
+    height: 165vh;
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2); 
+} 
 
 
 
-
-
-
+}

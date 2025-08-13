@@ -1044,7 +1044,7 @@ h5,h6{
 }
 @media screen and (max-width: 320px) {
 main{
-    height: 180vh;
+    height: 120vh;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -1053,7 +1053,7 @@ main{
     background-color: var(--color2); 
 }
 #exp{
-    height:350vh;
+    height:300vh;
     background-color:#ececec; 
 }
 #about{

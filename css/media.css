@@ -1032,6 +1032,26 @@ h5,h6{
     background-color:#ececec; 
 }
 }
+@media screen and (max-width: 350px) {
+main{
+    height: 165vh;
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2); 
+}
+
+#exp{
+    height:350vh;
+    background-color:#ececec; 
+}
+#about{
+    height: 40vh;
+}
+
+}    
 
 
 

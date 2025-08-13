@@ -899,7 +899,7 @@ ul li,a{
     list-style: none;  
 }
     main{
-    height: 155vh;
+    height: 150vh;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -1056,11 +1056,7 @@ main{
     height: 40vh;
 }
 }    
-@supports (-webkit-touch-callout: none) {
-  main{
-    height: 100dvh;
-  }
-}
+
 
 
 

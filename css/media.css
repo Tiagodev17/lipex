@@ -869,7 +869,7 @@ ul li,a{
     background-color:#ececec; 
 }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     header{
     width: 100%;
     padding: 20px 8%;
@@ -899,7 +899,7 @@ ul li,a{
     list-style: none;  
 }
     main{
-    height: 125vh;
+    height: 155vh;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -1035,7 +1035,7 @@ h5,h6{
     text-align: center;
 }
 #exp{
-    height:250vh;
+    height:350vh;
     background-color:#ececec; 
 }
 }

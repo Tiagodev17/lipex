@@ -1039,9 +1039,9 @@ h5,h6{
     background-color:#ececec; 
 }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
 main{
-    height: 165vh;
+    height: 145vh;
     width: 100%;
     padding: 80px 0;
     display: flex;

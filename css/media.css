@@ -1007,7 +1007,6 @@ ul li,a{
     flex-direction: row;
     gap: 0.5rem;
 }
-
 .imgEvent{
     width: 50%;
     height: 100%;
@@ -1049,7 +1048,6 @@ main{
     align-items: center;
     background-color: var(--color2); 
 }
-
 #exp{
     height:350vh;
     background-color:#ececec; 
@@ -1057,7 +1055,6 @@ main{
 #about{
     height: 40vh;
 }
-
 }    
 @supports (-webkit-touch-callout: none) {
   .seletor-do-seu-header-ou-container {

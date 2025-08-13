@@ -298,7 +298,7 @@ main{
 }
 }
 #exp{
-    height:280vh;
+    height:380vh;
     background-color:#ececec; 
 }
 @media screen and (max-width: 600px) {
@@ -451,7 +451,7 @@ ul li,a{
     list-style: none;  
 }
     main{
-    height: 130vh;
+    height: 150vh;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -540,6 +540,13 @@ ul li,a{
     justify-content: center;
     align-items: center; 
     text-align: center;
+}
+#about{
+    height: 30vh;
+}
+#exp{
+    height:350vh;
+    background-color:#ececec; 
 }
 }
 @media screen and (max-width: 420px) {

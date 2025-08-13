@@ -1037,6 +1037,9 @@ h5,h6{
     height:350vh;
     background-color:#ececec; 
 }
+#about{
+    height: 30vh;
+}
 }
 @media screen and (max-width: 320px) {
 main{

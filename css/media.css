@@ -1059,7 +1059,11 @@ main{
 }
 
 }    
-
+@supports (-webkit-touch-callout: none) {
+  .seletor-do-seu-header-ou-container {
+    height: 100dvh;
+  }
+}
 
 
 

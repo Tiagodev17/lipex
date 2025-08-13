@@ -856,6 +856,10 @@ ul li,a{
     color: var(--color1);
     font-weight: 600;
 }
+#exp{
+    height:350vh;
+    background-color:#ececec; 
+}
 @media screen and (max-width: 350px) {
     header{
     width: 100%;

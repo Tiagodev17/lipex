@@ -977,6 +977,7 @@ ul li,a{
     width: 70%;
     border-radius: 50%;
     border: solid 2px rgba(0, 0, 0, 0.466);
+    margin-top: 3px;
 }
 .cv2{
     width: 45%;
@@ -1043,7 +1044,7 @@ h5,h6{
 }
 @media screen and (max-width: 320px) {
 main{
-    height: 170vh;
+    height: 180vh;
     width: 100%;
     padding: 80px 0;
     display: flex;

@@ -1057,7 +1057,7 @@ main{
 }
 }    
 @supports (-webkit-touch-callout: none) {
-  header{
+  main{
     height: 100dvh;
   }
 }

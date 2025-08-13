@@ -729,7 +729,7 @@ ul li,a{
     list-style: none;  
 }
     main{
-    height: 130vh;
+    height: 160vh;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -1025,9 +1025,9 @@ h5,h6{
     height:250vh;
     background-color:#ececec; 
 }
-@media screen and (max-height: 670px) {
+@media screen and (max-height: 667px) {
     main{
-    height: 165vh;
+    height: 105vh;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -1035,7 +1035,11 @@ h5,h6{
     align-items: center;
     background-color: var(--color2); 
 } 
-
-
-
+#exp{
+    height:550vh;
+    background-color:#ececec; 
 }
+}
+
+
+

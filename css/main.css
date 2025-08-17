@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root{
     --color1:#424242;
     --color2:#EEEEEE;
@@ -29,7 +30,6 @@ main{
     max-width:90%;
     color: var(--color1);
     transition: 850ms ;
-    
 }
 .h2{
     font-size: 3rem;

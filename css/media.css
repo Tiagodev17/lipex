@@ -548,6 +548,13 @@ ul li,a{
     height:350vh;
     background-color:#ececec; 
 }
+.wrapper{
+    height: 40rem;
+    width: 28rem;
+    background-color: var(--color3);
+    border-radius: 2%;
+    padding: 1rem;
+}
 }
 @media screen and (max-width: 420px) {
     header{
@@ -643,6 +650,7 @@ ul li,a{
     color: var(--color3);
     border-radius: 3%;
     cursor: pointer;
+    padding: 0.2rem;
     font-size: 1.2rem;
     font-weight: 500;
     display: flex;
@@ -671,7 +679,7 @@ ul li,a{
 }
     .wrapper{
     height: 40rem;
-    width: 25rem;
+    width: 23rem;
     background-color: var(--color3);
     border-radius: 2%;
     padding: 1rem;
@@ -702,9 +710,11 @@ ul li,a{
     color: var(--color1);
 }
 .txt{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--color1);
     font-weight: 600;
+    padding: 0.5rem;
+    text-align: center;
 }
 }
 @media screen and (max-width: 410px) {

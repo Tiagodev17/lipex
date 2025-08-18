@@ -30,6 +30,12 @@ body{
     --color4:#ececec;
 
 }
+#temaBotao{
+    width: 40px;
+    border-radius: 2px;
+    border: none;
+    background-color: black;
+}
 header{
     width: 100%;
     padding: 20px 8%;

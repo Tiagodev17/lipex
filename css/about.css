@@ -5,7 +5,9 @@
     --color4:#ececec;
 }
 #about{
-    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     background-color: #424242;
 }
 .containerAbout{
@@ -15,10 +17,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 .containerAbout   .links{
     display: flex;
     justify-content: center;
+    
 }
 .h5,.h6{
     font-size: 2rem;

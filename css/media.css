@@ -1,0 +1,86 @@
+
+@media screen and (max-width:1850px) {
+    #temaBotao{
+    left: 1720px;
+    top: 25px;
+}
+    .h1{
+    font-size: 5rem;
+    max-width:90%;
+}
+    .h2{
+    font-size: 3.4rem;
+    max-width:90%;
+}
+    .img{   
+    width: 33%;
+}
+    .icons img{
+    width: 60px;
+}
+    .cv{
+    width: 35%;
+}
+    .sobre{
+    font-size: 1.3rem;
+    width: 65%;
+}
+}
+@media screen and (max-width:1775px) {
+    #temaBotao{
+    left: 1640px;
+    top: 25px;
+}
+    .h1{
+    font-size: 4.5rem;
+    max-width:90%;
+
+}
+    .h2{
+    font-size: 3rem;
+    max-width:90%;
+}
+    .img{   
+    width: 32%;
+}
+    .icons img{
+    width: 50px;
+}
+    .cv{
+    width: 33%;
+}
+    .sobre{
+    font-size: 1.3rem;
+    width: 61%;
+}
+@media screen and (max-width:1700px) {
+    #temaBotao{
+    left: 1580px;
+    top: 25px;
+}
+    .h1{
+    font-size: 4.5rem;
+}
+    .h2{
+    font-size: 3rem;
+}
+    .img{   
+    width: 32%;
+}
+    .icons img{
+    width: 50px;
+}
+    .cv{
+    width: 33%;
+}
+    .sobre{
+    font-size: 1.2rem;
+    width: 61%;
+}
+
+
+
+
+
+}
+}

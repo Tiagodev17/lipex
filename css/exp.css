@@ -5,7 +5,10 @@
     --color4:#ececec;
 }
 #exp{
-    height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 10rem;
     background-color: var(--color2);
 }
 h3{

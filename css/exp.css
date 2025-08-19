@@ -6,7 +6,8 @@
 }
 #exp{
     height:100vh;
-    background-color:#ececec; 
+    background-color: var(--color2);
+
 }
 h3{
     font-size: 2rem;

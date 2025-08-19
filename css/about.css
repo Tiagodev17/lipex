@@ -22,21 +22,21 @@
 }
 .h5,.h6{
     font-size: 2rem;
-    color: var(--color3);
+    color: var(--color4);
 }
 .Tiago{
     text-align: center;
-    background-color: var(--color1);
+    background-color: var(--color2);
 
 }
 .linkTiago{
-    color: var(--color3);
+    color: var(--color4);
 }
 .cv2{
     width: 15%;
     border: none;
-    background-color:var(--color3);
-    color: var(--color1);
+    background-color:var(--color5);
+    color: var(--color2);
     border-radius: 3%;
     cursor: pointer;
     font-size: 1.2rem;

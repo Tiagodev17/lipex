@@ -1,4 +1,192 @@
+@media screen and (max-width: 3800px) {
+#temaBotao{
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: black;
+    position: fixed;
+    top: 50px;
+    left: 3450px;
+    cursor: pointer;
+}
+    header{
+    width: 100%;
+    padding: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color3);
+    position: fixed;
+    filter: opacity(80%);
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.192) ;
+}
+header h1{
+    color: var(--color1);
+    font-size: 3rem;
+}
+.navBar ul{
+    display: flex;
+    gap: 2rem;
+}
+ul li,a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    list-style: none;  
 
+}
+a ,.icons{
+    color: var(--color1);   
+}
+li a:hover{
+    color: var(--color5);
+}
+
+.h1{
+    font-size: 9.5rem;
+    max-width:90%;
+    color: var(--color1);
+    
+}
+.h2{
+    font-size: 6.5rem;
+    max-width: 90%;
+    color: var(--color1);
+    font-style: italic;
+}
+.links{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.icons img{
+    width: 100px;
+}
+.sobre{
+    font-size: 2.5rem;
+    width: 65%;
+    margin-top: 1rem;
+    font-weight: 600;
+    background-color: var(--color3);
+    padding: 1rem;
+    border-radius: 3%;
+    color: var(--color1);
+    line-height: 50px;
+}
+.cv{
+    width: 45%;
+    border: none;
+    background-color:var(--color1);
+    color: var(--color3);
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wrapper{
+    height: 70rem;
+    width: 60rem;
+    background-color: var(--color3);
+    border-radius: 2%;
+    padding: 1rem;
+}
+.blockimg{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.imgEvent{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    
+}
+.txtEvent{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h4{
+    font-size: 3rem;
+    color: var(--color1);
+}
+.txt{
+    font-size: 2rem;
+    color: var(--color1);
+    font-weight: 600;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #424242;
+}
+.containerAbout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.containerAbout   .links{
+    display: flex;
+    justify-content: center;
+    
+}
+.h5,.h6{
+    font-size: 3rem;
+    color: var(--color4);
+}
+.Tiago{
+    text-align: center;
+    background-color: var(--color2);
+
+}
+.linkTiago{
+    color: var(--color1);
+}
+.cv2{
+    width: 15%;
+    border: none;
+    background-color:var(--color5);
+    color: var(--color3);
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cv2:hover{
+    background-color: var(--color4);
+    color: var(--color1); 
+}
+h3{
+    font-size: 3rem;
+}
+
+}
 /*  pc */
 @media screen and (max-width: 1600px) {
 main{
@@ -64,11 +252,11 @@ main{
     gap: 1rem;
 }
 #exp{
-    height:180vh;
+   
 
 }
 #about{
-    height: 30vh;
+    
     background-color: #424242;
 }
 

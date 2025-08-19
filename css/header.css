@@ -43,9 +43,6 @@ body{
     left: 1585px;
     cursor: pointer;
 }
-.containerBtn{
-    
-}
 #temaBotao svg{
     fill: var(--color2);
 }

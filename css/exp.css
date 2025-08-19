@@ -7,7 +7,6 @@
 #exp{
     height:100vh;
     background-color: var(--color2);
-
 }
 h3{
     font-size: 2rem;
@@ -17,7 +16,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #424242;
+    color:var(--color1);
 }
 .containerExp{
     height: 100%;
@@ -30,7 +29,7 @@ h3{
 .wrapper{
     height: 40rem;
     width: 32rem;
-    background-color: var(--color3);
+    background-color: var(--color5);
     border-radius: 2%;
     padding: 1rem;
 }
@@ -58,10 +57,10 @@ h3{
 }
 .h4{
     font-size: 1.3rem;
-    color: var(--color1);
+    color: var(--color3);
 }
 .txt{
     font-size: 1.2rem;
-    color: var(--color1);
+    color: var(--color3);
     font-weight: 600;
 }

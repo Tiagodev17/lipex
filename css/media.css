@@ -65,7 +65,7 @@ main{
 }
 #exp{
     height:180vh;
-    background-color:#ececec; 
+
 }
 #about{
     height: 30vh;
@@ -146,7 +146,6 @@ main{
 }
 #exp{
     height:260vh;
-    background-color:#ececec; 
 }
 
 }
@@ -296,10 +295,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-}
-#exp{
-    
-    background-color:#ececec; 
 }
 @media screen and (max-width: 600px) {
     header{
@@ -546,7 +541,7 @@ ul li,a{
 }
 #exp{
     height:350vh;
-    background-color:#ececec; 
+
 }
 .wrapper{
     height: 40rem;

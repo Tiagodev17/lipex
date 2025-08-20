@@ -467,8 +467,70 @@
     width: 45px;
     height: 45px;
 }
-    .container {
-    margin-top: 8rem;
+      .sobre{
+    max-width: 89%;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    line-height: 17px;
+    letter-spacing: 2px;
+    transition: 850ms;
+    text-align: center;
+} 
+}
+@media screen and (max-width:924px) {
+ #temaBotao{
+    left: 850px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+}
+    .sobre{
+    max-width: 89% ;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    line-height: 17px;
+    letter-spacing: 2px;
+    transition: 850ms;
+    text-align: center;
+} 
+    .cv{
+    width: 46%;
+    text-align: center;
+}
+}
+@media screen and (max-width:894px) {
+
+     #temaBotao{
+    left: 822px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+}
+    .sobre{
+    max-width: 89% ;
+    font-size: clamp(0.9rem, 1vw, 2rem);
+    line-height: 17px;
+    letter-spacing: 2px;
+    transition: 850ms;
+    text-align: center;
+} 
+   .img{   
+    width: 47%;
+}
+    .cv{
+    width: 44%;
+    text-align: center;
+}
+}
+/* tablet */    
+@media screen and (max-width:868px) {
+    .contentTxt{
+    margin-top: 3rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+    .container{
+    margin-top: 6rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -476,6 +538,258 @@
     align-items: center;
     justify-content: center;
 }
+    .links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+    .icons img{
+    width: 40px; 
+}
+    #temaBotao{
+    left: 800px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+}
+    .sobre{
+    max-width: 85% ;
+    font-size: clamp(0.9rem, 1vw, 2rem);
+    line-height: 20px;
+    letter-spacing: 3px;
+    transition: 850ms;
+    text-align: center;
+} 
+   .img{   
+    width: 49%;
+}
+    .cv{
+    width: 45%;
+    text-align: center;
+}
+    #exp{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 7rem;
+    padding-bottom: 10rem;
+    background-color: var(--color2);
+}
+    .h1{
+    font-size: clamp(1.5rem,4.9vw,8rem);
+    color: var(--color1);
+    transition: 850ms ;
+    
+}
+.h2{
+    font-size: clamp(1.5rem,3.2vw,5.5rem);
+    color: var(--color1);
+    font-style: italic;
+    transition: 950ms ;
+    .links{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    
+}
+    .icons img {
+    min-width: 50px;
+    }
+    .cv2 {
+    border: none;
+    background-color: var(--color5);
+    color: var(--color3);
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+}
+}
+}
+@media screen and (max-width:846px) {
+    #temaBotao{
+    left: 780px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
 
+}   
+} 
+@media screen and (max-width:846px) {
+  #temaBotao{
+    left: 759px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
 
+}  
+}    
+@media screen and (max-width:804px) {
+  #temaBotao{
+    left: 739px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:784px) {
+  #temaBotao{
+    left: 720px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:766px) {
+  #temaBotao{
+    left: 705px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:750px) {
+  #temaBotao{
+    left: 690px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:736px) {
+  #temaBotao{
+    left: 680px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:726px) {
+  #temaBotao{
+    left: 670px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:716px) {
+  #temaBotao{
+    left: 660px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:704px) {
+  #temaBotao{
+    left: 649px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+
+}  
+}    
+@media screen and (max-width:694px) {
+    #temaBotao{
+    left: 600px;
+    top: 60px;
+    width: 45px;
+    height: 45px;
+
+} 
+    header{
+    width: 100%;
+    padding: 20px 8%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color3);
+    position: fixed;
+    filter: opacity(80%);
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.192) ;
+}
+    header h1{
+        font-size: 1.8rem;
+    }
+}   
+@media screen and (max-width:646px) {
+        #temaBotao{
+    left: 500px;
+    top: 60px;
+    width: 45px;
+    height: 45px;
+
+}   
+    
+}    
+@media screen and (max-width:546px) {
+    #temaBotao{
+    left: 450px;
+    top: 60px;
+    width: 45px;
+    height: 45px;
+}   
+      .img{   
+    width: 50%;
+}
+       .h1{
+    font-size: clamp(1.5rem,5.5vw,8rem);
+    color: var(--color1);
+    transition: 850ms ;
+    
+}
+.h2{
+    font-size: clamp(1.5rem,4vw,5.5rem);
+    color: var(--color1);
+    font-style: italic;
+    transition: 950ms ;
+    .links{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    
+}
+    
+}  
+}  
+@media screen and (max-width:496px) {
+      #temaBotao{
+    left: 420px;
+    top: 60px;
+    width: 45px;
+    height: 45px;
+} 
+}    
+@media screen and (max-width:468px) {
+      #temaBotao{
+    left: 400px;
+    top: 60px;
+    width: 45px;
+    height: 45px;
+} 
+}    
+@media screen and (max-width:446px) {
+      #temaBotao{
+    left: 385px;
+    top: 60px;
+    width: 45px;
+    height: 45px;
+} 
 }    

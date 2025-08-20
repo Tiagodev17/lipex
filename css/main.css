@@ -13,6 +13,7 @@ main{
     background-color: var(--color2);
 }
 .container{
+    margin-top: 3rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -26,14 +27,12 @@ main{
     flex-direction: column;   
 }
 .h1{
-    font-size: 5.9rem;
-    max-width:90%;
+    font-size: clamp(1.5rem,4.7vw,8rem);
     color: var(--color1);
     transition: 850ms ;
 }
 .h2{
-    font-size: 4rem;
-    max-width: 90%;
+    font-size: clamp(1.5rem,3.1vw,5.5rem);
     color: var(--color1);
     font-style: italic;
     transition: 950ms ;
@@ -59,7 +58,7 @@ a{
     text-decoration: none;
 }
 .cv{
-    width: 42%;
+    width: 40%;
     border: none;
     background-color:var(--color1);
     color: var(--color3);
@@ -76,14 +75,15 @@ a{
     color: var(--color4);
 }
 .sobre{
-    font-size: 1.3rem;
-    width: 74%;
+    font-size: clamp(0.5rem,0.9vw,2rem);
+    max-width: 72%;
     margin-top: 1rem;
     font-weight: 600;
     background-color: var(--color1);
     padding: 1rem;
     border-radius: 3%;
     color: var(--color2);
-    line-height: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
     transition: 850ms ;
 }

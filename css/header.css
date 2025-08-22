@@ -5,8 +5,8 @@
 :root{
     --color1:#424242;
     --color2:#EEEEEE;
-    --color3:#dcdcdc;
-    --color4:#ececec;
+    --color3:#ececec;
+    --color4:#dcdcdc;
     --color5:#808080;
 }
 
@@ -23,10 +23,11 @@ body{
     box-sizing: border-box;
 }
 .darkmode{
-    --color1:#dcdcdc;
+    --color1:#EEEEEE;
     --color2:#424242;
-    --color3:#424242;
-    --color4:#EEEEEE;
+    --color3:#dcdcdc;
+    --color4:#ececec;
+    --color5:#808080;
 }
 #temaBotao{
     width: 50px;

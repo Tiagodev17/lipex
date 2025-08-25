@@ -1,0 +1,15 @@
+.darkmode{
+    --color1:#EEEEEE;
+    --color2:#424242;
+    --color3:#424242;
+    --color4:#ececec;
+    --color5:#808080;
+}
+
+:root{
+    --color1:#424242;
+    --color2:#EEEEEE;
+    --color3:#ececec;
+    --color4:#dcdcdc;
+    --color5:#808080;
+}

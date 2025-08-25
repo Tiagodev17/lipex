@@ -1,9 +1,4 @@
-:root{
-    --color1:#424242;
-    --color2:#EEEEEE;
-    --color3:#dcdcdc;
-    --color4:#ececec;
-}
+
 #exp{
     display: flex;
     flex-direction: column;

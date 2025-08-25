@@ -43,7 +43,7 @@ main{
     border-radius: 50%;
     border: solid 2px rgba(0, 0, 0, 0.466);
     transition: 850ms;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 .links{
     width: 100%;
@@ -60,7 +60,7 @@ a{
     text-decoration: none;
 }
 .cv{
-    width: 40%;
+    width: 38%;
     border: none;
     background-color:var(--color1);
     color: var(--color3);

@@ -1,3 +1,39 @@
+@media screen and (max-width:2500px) {
+    #temaBotao{
+    left: 2320px;
+    top: 25px;
+}
+}
+@media screen and (max-width:2372px) {
+    #temaBotao{
+    left: 2200px;
+    top: 25px;
+}
+}
+@media screen and (max-width:2249px) {
+    #temaBotao{
+    left: 2080px;
+    top: 25px;
+}
+}
+@media screen and (max-width:2132px) {
+    #temaBotao{
+    left: 1975px;
+    top: 25px;
+}
+}
+@media screen and (max-width:2028px) {
+    #temaBotao{
+    left: 1875px;
+    top: 25px;
+}
+}
+@media screen and (max-width:1929px) {
+    #temaBotao{
+    left: 1775px;
+    top: 25px;
+}
+}
 
 @media screen and (max-width:1850px) {
     #temaBotao{

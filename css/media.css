@@ -600,6 +600,7 @@
 } 
    .img{   
     width: 49%;
+    margin: 0;
 }
     .cv{
     width: 45%;

@@ -743,7 +743,7 @@
 @media screen and (max-width:694px) {
     #temaBotao{
     left: 600px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 
@@ -767,8 +767,8 @@
 }   
 @media screen and (max-width:646px) {
         #temaBotao{
-    left: 500px;
-    top: 60px;
+    left: 510px;
+    top: 20px;
     width: 45px;
     height: 45px;
 
@@ -778,7 +778,7 @@
 @media screen and (max-width:546px) {
     #temaBotao{
     left: 450px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 }   
@@ -823,7 +823,7 @@
 @media screen and (max-width:496px) {
       #temaBotao{
     left: 420px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 } 
@@ -831,7 +831,7 @@
 @media screen and (max-width:468px) {
       #temaBotao{
     left: 400px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 } 
@@ -839,7 +839,7 @@
 @media screen and (max-width:446px) {
     #temaBotao{
     left: 385px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 } 
@@ -1020,7 +1020,7 @@
 @media screen and (max-width:396px) {
     #temaBotao{
     left: 340px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 }
@@ -1080,7 +1080,7 @@
 @media screen and (max-width:386px) {
     #temaBotao{
     left: 332px;
-    top: 60px;
+    top: 20px;
     width: 45px;
     height: 45px;
 }

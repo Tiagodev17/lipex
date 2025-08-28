@@ -932,12 +932,18 @@
 @media screen and (max-width:430px) {
     #temaBotao{
     left: 350px;
-    top: 60px;
+    top: 18px;
     width: 45px;
     height: 45px;
 }
+    .sobre {
+        max-width: 100%;
+        font-size: clamp(0.7rem, 1vw, 2rem);
+        transition: 850ms;
+        text-align: center;
+    }
     main{
-        padding-top: 18rem;
+        padding-top: 12rem;
     }
     .img {
         width: 70%;
@@ -952,7 +958,7 @@
     }
     .wrapper{
     height: 40rem;
-    width: 25rem;
+    width: 20rem;
     background-color: var(--color5);
     border-radius: 2%;
     padding: 1rem;
@@ -981,11 +987,14 @@
     text-align: center;
 }
 .h4{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--color3);
 }
+    .icons img {
+        width: 50px;
+    }
 .txt{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: var(--color3);
     font-weight: 600;
 }
@@ -1075,6 +1084,15 @@
     width: 45px;
     height: 45px;
 }
+      .container {
+        padding-top: 1rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
 
 
     .wrapper{
@@ -1099,15 +1117,13 @@
     
 }
 .sobre {
-    font-size: clamp(0.5rem, 0.9vw, 2rem);
+    font-size: clamp(0.7rem, 0.9vw, 2rem);
     max-width: 100%;
     margin-top: 1rem;
     font-weight: 600;
     background-color: var(--color1);
-    padding: 1rem;
     border-radius: 3%;
     color: var(--color2);
-    line-height: 30px;
     letter-spacing: 2px;
     transition: 850ms;
 }

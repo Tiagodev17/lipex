@@ -33,6 +33,7 @@
 }
 .cv2{
     width: 15%;
+    height: 5rem;
     border: none;
     background-color:var(--color5);
     color: var(--color3);

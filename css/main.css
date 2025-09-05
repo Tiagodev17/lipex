@@ -27,17 +27,17 @@ main{
     transition: 850ms ;
 }
 .h2{
-    font-size: clamp(1.5rem,3.1vw,5.5rem);
+    font-size: clamp(1.5rem,3.2vw,5.5rem);
     color: var(--color1);
     font-style: italic;
     transition: 950ms ;
 }
 .img{   
-    width: 35%;
+    width: 55%;
     border-radius: 50%;
     border: solid 2px rgba(0, 0, 0, 0.466);
     transition: 850ms;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 .links{
     width: 100%;
@@ -56,7 +56,7 @@ a{
     text-decoration: none;
 }
 .cv{
-    width: 38%;
+    width: 33%;
     height: 5rem;
     border: none;
     background-color:var(--color1);
@@ -75,7 +75,7 @@ a{
 }
 .sobre{
     font-size: clamp(0.5rem,0.9vw,2rem);
-    max-width: 72%;
+    max-width: 62%;
     margin-top: 1rem;
     font-weight: 600;
     background-color: var(--color1);

@@ -1,4 +1,4 @@
-@media screen and (max-width:2510px) {
+@media screen and (min-width:2510px) {
     #temaBotao{
     left: 2320px;
     top: 25px;
@@ -15,43 +15,56 @@
   line-height: 30px;
   letter-spacing: 2px;
   transition: 850ms;
+  text-align: justify;
 }
 .img {
-  width: 45%;
+  width: 48%;
   border-radius: 50%;
   border: solid 2px rgba(0, 0, 0, 0.466);
   transition: 850ms;
-  margin-right: 5rem;
+  margin-right: 7rem;
+}
+.cv{
+    width: 36%;
+}
+.h1 {
+  font-size: clamp(1.5rem,4.4vw,8rem);
+}
+.h2 {
+  font-size: clamp(1.5rem,3vw,5.5rem);
 }
 }
-@media screen and (max-width:2372px) {
+@media screen and (min-width:2372px) {
     #temaBotao{
     left: 2200px;
     top: 25px;
 }
 }
-@media screen and (max-width:2249px) {
+@media screen and (min-width:2249px) {
     #temaBotao{
     left: 2080px;
     top: 25px;
 }
 }
-@media screen and (max-width:2132px) {
+@media screen and (min-width:2132px) {
     #temaBotao{
     left: 1975px;
     top: 25px;
 }
 }
-@media screen and (max-width:2028px) {
+@media screen and (min-width:2028px) {
     #temaBotao{
     left: 1875px;
     top: 25px;
 }
 }
-@media screen and (max-width:1929px) {
+@media screen and (min-width:1929px) {
     #temaBotao{
     left: 1775px;
     top: 25px;
+}
+    .img{   
+    width: 35%;
 }
 }
 

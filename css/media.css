@@ -1,4 +1,4 @@
-@media screen and (min-width:2510px) {
+@media screen and (max-width:2510px) {
     #temaBotao{
     left: 2320px;
     top: 25px;
@@ -34,37 +34,37 @@
   font-size: clamp(1.5rem,3vw,5.5rem);
 }
 }
-@media screen and (min-width:2372px) {
+@media screen and (max-width:2372px) {
     #temaBotao{
     left: 2200px;
     top: 25px;
 }
 }
-@media screen and (min-width:2249px) {
+@media screen and (max-width:2249px) {
     #temaBotao{
     left: 2080px;
     top: 25px;
 }
 }
-@media screen and (min-width:2132px) {
+@media screen and (max-width:2132px) {
     #temaBotao{
     left: 1975px;
     top: 25px;
 }
 }
-@media screen and (min-width:2028px) {
+@media screen and (max-width:2028px) {
     #temaBotao{
-    left: 1875px;
+    left: 1725px;
     top: 25px;
 }
 }
-@media screen and (min-width:1929px) {
+@media screen and (max-width:1920px) {
     #temaBotao{
     left: 1775px;
     top: 25px;
 }
     .img{   
-    width: 35%;
+    width: 60%;
 }
 }
 

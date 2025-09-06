@@ -5,7 +5,7 @@
 }
 .sobre {
   font-size: clamp(0.5rem,0.9vw,2rem);
-  max-width: 57%;
+  max-width: 64%;
   margin-top: 1rem;
   font-weight: 600;
   background-color: var(--color1);
@@ -25,7 +25,7 @@
   margin-right: 7rem;
 }
 .cv{
-    width: 36%;
+    width: 33%;
 }
 .h1 {
   font-size: clamp(1.5rem,4.4vw,8rem);
@@ -73,17 +73,14 @@
     left: 1720px;
     top: 25px;
 }
-    .img{   
-    width: 35%;
-}
     .icons img{
     width: 60px;
 }
     .cv{
-    width: 41%;
+    width: 34%;
 }
     .sobre{
-    max-width: 72%;
+        max-width: 64%;
 }
 }
 @media screen and (max-width:1775px) {
@@ -99,16 +96,14 @@
     max-width:90%;
 }
     .img{   
-    width: 32%;
+    width: 65%;
 }
-    .icons img{
-    width: 50px;
-}
+ 
     .cv{
-    width: 44%;
+    width: 35%;
 }
     .sobre{
-    max-width: 72%;
+    max-width: 67%;
 }
 }
 @media screen and (max-width:1700px) {
@@ -117,16 +112,15 @@
     top: 25px;
 }
     .img{   
-    width: 36%;
+    width: 65%;
 }
-    .icons img{
-    width: 50px;
-}
+ 
        .cv{
-    width: 42%;
+    width: 34%;
 }
         .sobre{
-     max-width: 72%;
+     max-width: 67%;
+     line-height: 28px;
 }
 
 }
@@ -139,7 +133,7 @@
     width: 42%;
 }
     .img{   
-    width: 37%;
+    width: 65%;
 }
         .sobre{
      max-width: 72%;
@@ -164,13 +158,13 @@
     top: 25px;
 }
     .cv{
-    width: 39%;
+    width: 31%;
 }
     .img{   
-    width: 39%;
+    width: 65%;
 }
         .sobre{
-     max-width: 72%;
+     max-width: 69%;
 }
 }
 @media screen and (max-width:1451px) {
@@ -182,7 +176,7 @@
     width: 39%;
 }
     .img{   
-    width: 41%;
+    width: 65%;
 }
 .links{
     width: 100%;
@@ -698,8 +692,10 @@
     top: 25px;
     width: 45px;
     height: 45px;
-
 }  
+    .icons img {
+    width: 65px;
+  }
 }    
 @media screen and (max-width:804px) {
   #temaBotao{
@@ -752,8 +748,26 @@
     top: 25px;
     width: 45px;
     height: 45px;
-
 }  
+    .icons img {
+    width: 45px;
+  }
+   .cv {
+    width: 45%;
+    height: 60px;
+    text-align: center;
+  }
+    .h1 {
+    font-size: clamp(2.8rem,4.9vw,8rem);
+    color: var(--color1);
+    transition: 850ms;
+  }
+      .h2 {
+    font-size: clamp(2rem,3.2vw,5.5rem);
+    color: var(--color1);
+    font-style: italic;
+    transition: 950ms;
+  }
 }    
 @media screen and (max-width:716px) {
   #temaBotao{

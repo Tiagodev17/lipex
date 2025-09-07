@@ -1,37 +1,7 @@
-@media screen and (max-width:2510px) {
+@media screen and (max-width:2500px) {
     #temaBotao{
     left: 2320px;
     top: 25px;
-}
-.sobre {
-  font-size: clamp(0.5rem,0.9vw,2rem);
-  max-width: 64%;
-  margin-top: 1rem;
-  font-weight: 600;
-  background-color: var(--color1);
-  padding: 1rem;
-  border-radius: 3%;
-  color: var(--color2);
-  line-height: 30px;
-  letter-spacing: 2px;
-  transition: 850ms;
-  text-align: justify;
-}
-.img {
-  width: 48%;
-  border-radius: 50%;
-  border: solid 2px rgba(0, 0, 0, 0.466);
-  transition: 850ms;
-  margin-right: 7rem;
-}
-.cv{
-    width: 33%;
-}
-.h1 {
-  font-size: clamp(1.5rem,4.4vw,8rem);
-}
-.h2 {
-  font-size: clamp(1.5rem,3vw,5.5rem);
 }
 }
 @media screen and (max-width:2372px) {
@@ -54,17 +24,14 @@
 }
 @media screen and (max-width:2028px) {
     #temaBotao{
-    left: 1725px;
+    left: 1875px;
     top: 25px;
 }
 }
-@media screen and (max-width:1920px) {
+@media screen and (max-width:1929px) {
     #temaBotao{
     left: 1775px;
     top: 25px;
-}
-    .img{   
-    width: 60%;
 }
 }
 
@@ -73,14 +40,17 @@
     left: 1720px;
     top: 25px;
 }
+    .img{   
+    width: 35%;
+}
     .icons img{
     width: 60px;
 }
     .cv{
-    width: 34%;
+    width: 41%;
 }
     .sobre{
-        max-width: 64%;
+    max-width: 72%;
 }
 }
 @media screen and (max-width:1775px) {
@@ -96,14 +66,16 @@
     max-width:90%;
 }
     .img{   
-    width: 65%;
+    width: 32%;
 }
- 
+    .icons img{
+    width: 50px;
+}
     .cv{
-    width: 35%;
+    width: 44%;
 }
     .sobre{
-    max-width: 67%;
+    max-width: 72%;
 }
 }
 @media screen and (max-width:1700px) {
@@ -112,15 +84,16 @@
     top: 25px;
 }
     .img{   
-    width: 65%;
+    width: 36%;
 }
- 
+    .icons img{
+    width: 50px;
+}
        .cv{
-    width: 34%;
+    width: 42%;
 }
         .sobre{
-     max-width: 67%;
-     line-height: 28px;
+     max-width: 72%;
 }
 
 }
@@ -133,7 +106,7 @@
     width: 42%;
 }
     .img{   
-    width: 65%;
+    width: 37%;
 }
         .sobre{
      max-width: 72%;
@@ -158,13 +131,13 @@
     top: 25px;
 }
     .cv{
-    width: 31%;
+    width: 39%;
 }
     .img{   
-    width: 65%;
+    width: 39%;
 }
         .sobre{
-     max-width: 69%;
+     max-width: 72%;
 }
 }
 @media screen and (max-width:1451px) {
@@ -176,7 +149,7 @@
     width: 39%;
 }
     .img{   
-    width: 65%;
+    width: 41%;
 }
 .links{
     width: 100%;
@@ -692,10 +665,8 @@
     top: 25px;
     width: 45px;
     height: 45px;
+
 }  
-    .icons img {
-    width: 65px;
-  }
 }    
 @media screen and (max-width:804px) {
   #temaBotao{
@@ -748,26 +719,8 @@
     top: 25px;
     width: 45px;
     height: 45px;
+
 }  
-    .icons img {
-    width: 45px;
-  }
-   .cv {
-    width: 45%;
-    height: 60px;
-    text-align: center;
-  }
-    .h1 {
-    font-size: clamp(2.8rem,4.9vw,8rem);
-    color: var(--color1);
-    transition: 850ms;
-  }
-      .h2 {
-    font-size: clamp(2rem,3.2vw,5.5rem);
-    color: var(--color1);
-    font-style: italic;
-    transition: 950ms;
-  }
 }    
 @media screen and (max-width:716px) {
   #temaBotao{
